@@ -6,4 +6,4 @@ How to change a plain table view from:
 
 to:
 
-![](https://raw.githubusercontent.com/dasdom/TableViewFooterDemo/master/Simulator%20Screen%20Shot%2029.06.2015%2021.51.22.png)
+![](https://raw.githubusercontent.com/dasdom/TableViewFooterDemo/master/Simulator%20Screen%20Shot%2029.06.2015%2022.04.30.png)
