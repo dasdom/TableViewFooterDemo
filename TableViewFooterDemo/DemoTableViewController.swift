@@ -19,7 +19,7 @@ class DemoTableViewController: UITableViewController {
     
     tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "CellIdentifier")
     
-    tableView.tableFooterView = UIView(frame: CGRectMake(0, 0, view.frame.size.width, 0))
+    tableView.tableFooterView = UIView(frame: CGRect.zeroRect)
   }
   
   // MARK: - Table view data source
