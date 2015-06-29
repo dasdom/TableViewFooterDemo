@@ -19,9 +19,7 @@ class DemoTableViewController: UITableViewController {
     
     tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "CellIdentifier")
     
-    let footerView = UIView(frame: CGRectMake(0, 0, view.frame.size.width, 0.5))
-    footerView.backgroundColor = UIColor(white: 0.8, alpha: 1.0)
-    tableView.tableFooterView = footerView
+    tableView.tableFooterView = UIView(frame: CGRectMake(0, 0, view.frame.size.width, 0))
   }
   
   // MARK: - Table view data source
